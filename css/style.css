@@ -1,8 +1,8 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FEA116;
-    --light: #F1F8FF;
-    --dark: #0F172B;
+    --primary: #884a39;
+    --light: #c38154;
+    --dark: #ffc26f;
 }
 
 .fw-medium {
@@ -22,19 +22,6 @@
 }
 
 
-/*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
 
 
 /*** Button ***/
@@ -76,11 +63,12 @@
 }
 
 
+
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #ffc26f;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
